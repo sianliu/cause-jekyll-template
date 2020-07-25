@@ -1,44 +1,51 @@
 ---
 layout: default
-title: The Sheep Vote
+title: Beyond
 ---
 <header>
 	<div class="container">
 		<div class="column">
 			<div>
-				<h1 class="editable">Give sheep the vote</h1>
-				<p class="editable">Sheep are the backbone of the economy yet they receive no compensation.</p>
+				<h1 class="editable">Give TBI survivors your vote</h1>
+				<p class="editable">Not all wounds are visible. Give us a chance and we won't let you down.</p>
 				<div class="button">
 					<a href="#donate">Donate Now</a>
 				</div>
 			</div>
 		</div>
 		<div class="column">
-			<img src="{{ site.baseurl }}/images/sheep.jpg" alt="Sheep">
+			<img src="{{ site.baseurl }}/images/broken_brains_logo.jpg" alt="broken_brains_logo">
 		</div>
 	</div>
 </header>
 
 <div class="container">
-	<h2 class="editable" style="text-align: center;">Why sheep need the vote</h2>
+	<h2 class="editable" style="text-align: center;">Why TBI survivors need the vote</h2>
 
 	<ul class="thirds">
 		<li>
 			<div class="image">{% include icons/site.html icon="population" %}</div>
 			<h3 class="editable">Population</h3>
-			<p class="editable">New Zealand has a human population of just 4.5M while there are 70M sheep. </p>
+			<p class="editable">Singapore has a resident population of 4M where 518K of them are aged 65 & over. </p>
 		</li>
 
 		<li>
 			<div class="image">{% include icons/site.html icon="economy" %}</div>
-			<h3 class="editable">Economy</h3>
-			<p class="editable">Sheep are the backbone of the economy yet they receive no compensation.</p>
+			<h3 class="editable">TBI Statistics</h3>
+			<p class="editable">In Singapore, Traumatic brain injury (TBI) accounts for up to 75% of trauma-related
+				deaths. <br><br>In 2013, according to the National Trauma Registry, there were a total of 4,815 cases
+			reported. For all levels of injury severity, the greatest proportion of the trauma patients was in the
+				elderly (aged 65 years and above), and the majority of the hospitalised cases were due to falls.</p>
+
 		</li>
 
 		<li>
 			<div class="image">{% include icons/site.html icon="conditions" %}</div>
-			<h3 class="editable">Work Conditions</h3>
-			<p class="editable">Sheep are forced to eat grass every day of their life. How about some of variety?</p>
+			<h3 class="editable">Community Programs</h3>
+			<p class="editable">As the care of patients with severe TBI requires heavy utilisation of resources. The
+				healthcare burden of these patients extends beyond the acute critical care phase. Given the
+				complexity and wide variety of programs observed, there is a lack of programs available to help with
+				community reintegration.</p>
 		</li>
 	</ul>
 </div>
@@ -46,12 +53,14 @@ title: The Sheep Vote
 <div class="container">
 	<div class="columns">
 		<div>
-			<img src="{{ site.baseurl }}/images/sheep2.jpg" alt="Sheep">
+			<img src="{{ site.baseurl }}/images/recovery_formula.jpg" alt="recovery_formula">
 		</div>
 		<div>
 			<h2 class="editable">Our Mission</h2>
 
-			<p class="editable">Leave no sheep behind. Our mission to give sheep the right to vote and have them represented in parliament. For too long sheep have been exploited for their warm wool and delicious meat. It's time to put our hooves down and baa for what's right. Give sheep the vote!</p>
+			<p class="editable">The world is not built for everyone. But we believe if we all come together, we can change that.
+				Our mission to improve the lives of individuals and families affected by head
+				injuries through community, collaboration, and technology</p>
 		</div>
 	</div>
 </div>
@@ -59,11 +68,13 @@ title: The Sheep Vote
 <div class="container">
 	<hr>
 	<blockquote>
-		<p class="quote editable">The ultimate measure of a sheep is not where he stands in moments of comfort and convenience, but where he stands at times of challenge and controversy.</p>
+		<p class="quote editable">The brain is built for change. It’s a miraculous organ that can rewire itself to
+			make new connections and fix old ones. Recoveries to brain injuries are real and it is possible for you to get your life back or a loved one to get theirs.</p>
 		<div class="attribute">
 			<p class="meta">
-				<span class="image"><img class="editable" src="{{ site.baseurl }}/images/wooly.jpg" alt="Wooly"></span>
-				<span class="author editable"><strong>Wooly McBaa</strong></span>
+				<span
+						class="image"><img class="editable" src="{{ site.baseurl }}/images/favicon.jpg" alt="Wooly"></span>
+				<span class="author editable"><strong>--TBI Survivor</strong></span>
 			</p>
 		</div>
 	</blockquote>
@@ -89,7 +100,7 @@ title: The Sheep Vote
 
 <div class="darker">
 	<div class="container">
-		<h2 class="editable">Updates</h2>
+		<h2 class="editable">TBI Stories</h2>
 		<p class="editor-link"><a href="cloudcannon:collections/_posts" class="btn"><strong>&#9998;</strong> Add Update</a></p>
 		<div class="posts">
 			{% for post in site.posts %}
@@ -98,7 +109,6 @@ title: The Sheep Vote
 					<div class="post-content">
 						<p class="date">{{ post.date | date: '%B %d, %Y' }}</p>
 						<h3>{{ post.title }}</h3>
-
 						{{ post.content }}
 						<p class="editor-link"><a href="cloudcannon:collections/{{ post.path }}" class="btn"><strong>&#9998;</strong> Edit Update</a></p>
 					</div>
